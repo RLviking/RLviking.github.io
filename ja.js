@@ -18,9 +18,6 @@ document.getElementsByTagName("header")[0].innerHTML = `
                 <li class="nav-item">
                   <a class="nav-link" href="omoss.html">Om oss</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="kontakt.html">Kontakta oss</a>
-                  </li>
               </ul>
             </div>
           </nav>
