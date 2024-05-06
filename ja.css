@@ -10,30 +10,23 @@ body {
     background-attachment: fixed; 
 }
 
-nav {
-    background-image: url("black_leather_27_48_render_2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-}
 
 .nav-link {
-    color: aquamarine;
-    text-shadow:
-    -1px -1px 0 black,  
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
+    color: white;
 }
 
 footer {
     color: white;
-    background: black;
-    padding: 10px;
 }
 
-footer ul li {
-    padding: 10px;
+p {
+    color: white;
 }
 
+h2 {
+    color: white;
+}
+
+main {
+    min-height: 100%;
+}
