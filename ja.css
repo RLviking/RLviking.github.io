@@ -20,6 +20,7 @@ footer {
 }
 
 p {
+    margin:1%;
     color: white;
     text-shadow:
     -1px -1px 0 black,  
@@ -29,6 +30,7 @@ p {
 }
 
 h1 {
+    margin:1%;
     color: white;
     text-shadow:
     -1px -1px 0 black,  
@@ -38,14 +40,43 @@ h1 {
 }
 
 h2 {
+    margin:1%;
     color: white;
     text-shadow:
     -1px -1px 0 black,  
     1px -1px 0 black,
     -1px 1px 0 black,
     1px 1px 0 black;
+
 }
 
 main {
     min-height: 100%;
+}
+
+.margin-img{
+    margin:1%;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center img {
+    height: 40vh;
+}
+
+.table {
+    margin:1%;
+    width: 60%;
+}
+
+.nav-link:hover {
+    transform: scale(1.2);
+}
+
+header {
+    margin:0px;
 }

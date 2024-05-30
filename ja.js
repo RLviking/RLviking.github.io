@@ -1,6 +1,6 @@
 document.getElementsByTagName("header")[0].innerHTML = `
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand">Powerfit Gym</a>
+            <p class="navbar-brand">Powerfit Gym</p>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -13,7 +13,7 @@ document.getElementsByTagName("header")[0].innerHTML = `
                   <a class="nav-link" href="prislista.html">Prislista</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="medier.html">Social media</a>
+                  <a class="nav-link" href="medier.html">Sociala medier</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="omoss.html">Om oss</a>
@@ -27,7 +27,6 @@ document.getElementsByTagName("header")[0].innerHTML = `
 document.getElementsByTagName("footer")[0].innerHTML = `
 <footer class ="footer-dark bg-dark">
 <p>Kontakta gärna oss med frågor:</p>
-<span>Mail: info@powerfitgym.com</span>
-<span>Telefon: 123-456789</span>
+<p>Mail: info@powerfitgym.com Telefon: 123-456789</p>
 </footer>
 `;
